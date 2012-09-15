@@ -80,4 +80,11 @@ function! OpenChangedFiles()
     exec "sp " . filename
   endfor
 endfunction
+
+" Restore cursor position
+:au BufReadPost *
+    \ if line("'\"") > 1 && line("'\"") <= line("$") |
+    \   exe "normal! g`\"" |
+    \ endif
+
 command! OpenChangedFiles :call OpenChangedFiles()
