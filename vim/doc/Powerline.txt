@@ -427,3 +427,12 @@ Source repository: https://github.com/Lokaltog/vim-powerline
 
 ==============================================================================
 vim:tw=78:sw=4:ts=8:ft=help:norl:
+ience any bugs or have feature requests, please open an issue on
+GitHub. Fork the source repository on GitHub and send a pull request if you
+have any code improvements.
+
+Author: Kim Silkebækken <kim.silkebaekken+vim@gmail.com>
+Source repository: https://github.com/Lokaltog/vim-powerline
+
+==============================================================================
+vim:tw=78:sw=4:ts=8:ft=help:norl:
